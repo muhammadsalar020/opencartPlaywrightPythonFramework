@@ -1,0 +1,14 @@
+[OK] Starting browser: chromium
+[OK] Headless mode: False (headed=True)
+[INFO] Navigating to: http://localhost/opencartsitesnew/
+[TRACE] Tracing enabled - capturing screenshots and actions
+ Exception while clicking Login button: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until 'load'
+============================================================
+[RESULT] Test 'test_login_data_driven_excel[Valid login]' result: [FAIL]
+[SAVE] Trace saved: reports/traces/test_login_data_driven_excel[Valid login]_trace.zip
+[SAVE] Screenshot saved: reports/screenshots/test_login_data_driven_excel[Valid login].png
+[ATTACH] Screenshot attached to Allure report
+[ATTACH] Video attached to Allure report
+[CLEANUP] Closing browser context and stopping Playwright...

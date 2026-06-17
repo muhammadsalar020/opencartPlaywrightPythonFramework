@@ -1,0 +1,8 @@
+[OK] Starting browser: chromium
+[OK] Headless mode: False (headed=True)
+[INFO] Navigating to: http://localhost/opencartsitesnew/
+[TRACE] Tracing enabled - capturing screenshots and actions
+[CSV][Valid Registration 2] Registered with email: michael47@example.org
+[RESULT] Test 'test_user_registration_csv[Valid Registration 2]' result: [PASS]
+[SAVE] Trace saved: reports/traces/test_user_registration_csv[Valid Registration 2]_trace.zip
+[CLEANUP] Closing browser context and stopping Playwright...

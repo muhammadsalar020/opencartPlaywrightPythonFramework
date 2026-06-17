@@ -1,0 +1,13 @@
+[OK] Starting browser: chromium
+[OK] Headless mode: False (headed=True)
+[INFO] Navigating to: http://localhost/opencartsitesnew/
+[TRACE] Tracing enabled - capturing screenshots and actions
+[STEP 1] Registered with email: shawn80@example.com
+[STEP 2] Logged out after registration
+[STEP 3] Logged in successfully
+[STEP 4] Search results displayed for: iPhone
+[STEP 5] 'iPhone' added to cart successfully
+[STEP 6] Logged out successfully — E2E journey complete!
+[RESULT] Test 'test_end_to_end_user_journey' result: [PASS]
+[SAVE] Trace saved: reports/traces/test_end_to_end_user_journey_trace.zip
+[CLEANUP] Closing browser context and stopping Playwright...

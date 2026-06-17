@@ -1,0 +1,3 @@
+testName,firstName,lastName,email,password
+Valid Registration 1,John,Doe,john.doe1@test.com,Test@1234
+Valid Registration 2,Jane,Smith,jane.smith2@test.com,Pass@5678

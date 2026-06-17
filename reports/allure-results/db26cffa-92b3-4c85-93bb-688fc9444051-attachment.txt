@@ -1,0 +1,17 @@
+[OK] Starting browser: chromium
+[OK] Headless mode: False (headed=True)
+[INFO] Navigating to: http://localhost/opencartsitesnew/
+[TRACE] Tracing enabled - capturing screenshots and actions
+ Exception while clicking 'Login': Locator.click: Error: strict mode violation: locator("a:has-text(\"Login\")") resolved to 2 elements:
+    1) <a class="dropdown-item" href="http://localhost/opencartsitesnew/index.php?route=account/login&language=en-gb">Login</a> aka locator("#top").get_by_role("link", name="Login")
+    2) <a class="list-group-item" href="http://localhost/opencartsitesnew/index.php?route=account/login&language=en-gb">Login</a> aka locator("#column-right").get_by_role("link", name="Login")
+
+Call log:
+  - waiting for locator("a:has-text(\"Login\")")
+
+[RESULT] Test 'test_end_to_end_user_journey' result: [FAIL]
+[SAVE] Trace saved: reports/traces/test_end_to_end_user_journey_trace.zip
+[SAVE] Screenshot saved: reports/screenshots/test_end_to_end_user_journey.png
+[ATTACH] Screenshot attached to Allure report
+[ATTACH] Video attached to Allure report
+[CLEANUP] Closing browser context and stopping Playwright...

@@ -1,0 +1,11 @@
+[OK] Starting browser: chromium
+[OK] Headless mode: False (headed=True)
+[INFO] Navigating to: http://localhost/opencartsitesnew/
+[TRACE] Tracing enabled - capturing screenshots and actions
+ Exception while clicking 'Search' button: Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("#search button[type=\"button\"]")
+
+[RESULT] Test 'test_add_product_to_cart' result: [FAIL]
+[SAVE] Trace saved: reports/traces/test_add_product_to_cart_trace.zip
+[CLEANUP] Closing browser context and stopping Playwright...

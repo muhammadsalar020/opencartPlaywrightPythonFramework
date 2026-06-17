@@ -1,0 +1,17 @@
+[OK] Starting browser: chromium
+[OK] Headless mode: False (headed=True)
+[INFO] Navigating to: http://localhost/opencartsitesnew/
+[TRACE] Tracing enabled - capturing screenshots and actions
+Error while setting quantity: Locator.fill: Error: strict mode violation: locator("input[name=\"quantity\"]") resolved to 2 elements:
+    1) <input size="2" value="1" type="text" name="quantity" id="input-quantity" class="form-control"/> aka locator("#input-quantity")
+    2) <input value="2" type="hidden" name="quantity"/> aka locator("input[name=\"quantity\"]").nth(1)
+
+Call log:
+  - waiting for locator("input[name=\"quantity\"]")
+
+[RESULT] Test 'test_add_product_to_cart' result: [FAIL]
+[SAVE] Trace saved: reports/traces/test_add_product_to_cart_trace.zip
+[SAVE] Screenshot saved: reports/screenshots/test_add_product_to_cart.png
+[ATTACH] Screenshot attached to Allure report
+[ATTACH] Video attached to Allure report
+[CLEANUP] Closing browser context and stopping Playwright...

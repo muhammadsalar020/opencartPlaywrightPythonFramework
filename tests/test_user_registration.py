@@ -36,8 +36,50 @@ def test_user_registration(page):
     registration_page.click_continue()
 
     # --- Step 5: Verify Registration Success ---
-    assert registration_page.get_confirmation_msg().is_visible(), \
+    registration_page.get_confirmation_msg()  # waits internally for element to be visible
+    assert registration_page.msg_confirmation.is_visible(), \
         "Registration failed: Confirmation message not displayed."
+
+# # test_user_registration.py
+# import pytest
+# from pages.home_page import HomePage
+# from pages.registration_page import RegistrationPage
+# from utilities.random_data_util import RandomDataUtil
+#
+#
+# @pytest.mark.sanity
+# @pytest.mark.regression
+# def test_user_registration(page):
+#     """
+#     Automated Test Case: Verify that a new user can successfully register an account.
+#     """
+#
+#     # --- Step 1: Create Page Object Instances ---
+#     home_page = HomePage(page)
+#     registration_page = RegistrationPage(page)
+#
+#     # --- Step 2: Navigate to Registration Page ---
+#     home_page.click_my_account()
+#     home_page.click_register()
+#
+#     # --- Step 3: Generate Random Test Data ---
+#     random_data = RandomDataUtil()
+#     first_name = random_data.get_first_name()
+#     last_name = random_data.get_last_name()
+#     email = random_data.get_email()
+#     password = random_data.get_password()
+#
+#     # --- Step 4: Fill Registration Form ---
+#     registration_page.set_first_name(first_name)
+#     registration_page.set_last_name(last_name)
+#     registration_page.set_email(email)
+#     registration_page.set_password(password)
+#     registration_page.set_privacy_policy()
+#     registration_page.click_continue()
+#
+#     # --- Step 5: Verify Registration Success ---
+#     assert registration_page.get_confirmation_msg().is_visible(), \
+#         "Registration failed: Confirmation message not displayed."
 
 
 #
